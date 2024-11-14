@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            background-color: rgb(253, 243, 243);
+
+        }
+
+        .card:hover {
+            background-color: white;
+            /* border: 10px solid blueviolet;   --->>  helana suru ho jaygi */
+            border-color: white;
+        }
+
+        .first,
+        {
+            margin-left: 200px;
+        }
+
+        .img3 {
+            height: 70px;
+            width: 70px;
+        }
+
+        .dine {
+            position: relative;
+            bottom: 25px;
+            margin-left: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: grey;
+        }
+
+        .delivery {
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+        .second {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.third{
+    height: 500px;
+    background-color: gray;
+}
+.dining{
+    margin-left: 200px;
+}
+
+        .brand {
+            color: red;
+            margin-right: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        .searching {
+            height: 30px;
+            width: 300px;
+            margin-right: 50px;
+            position: relative;
+            bottom: 13px;
+        }
+
+
+
+        button {
+            height: 50px;
+            width: 80px;
+            position: relative;
+            bottom: 10px;
+            font-size: 15px;
+            margin-right: 50px;
+            background-color: white;
+            border: none;
+            color: gray;
+        }
+
+        .head {
+            background-color: white;
+        }
+
+
+
+        .Box {
+            display: inline-block;
+        }
+
+        .card {
+            position: relative;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: 10px solid rgb(253, 243, 243);
+        }
+
+        .img {
+            height: 250px;
+            width: auto;
+            border-radius: 20px;
+        }
+
+        .Resturent_name {
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        .rating {
+            background-color: green;
+            height: 20px;
+            padding: 3px;
+            position: absolute;
+            right: 5px;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .Resturent,
+        .food,
+        .location {
+            position: relative;
+            top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        .price,
+        .distance {
+            position: absolute;
+            right: 5px;
+        }
+
+        .food,
+        .place {
+            font-size: 15px;
+            color: rgba(128, 128, 128, 0.932);
+        }
+
+        .distance {
+            font-weight: bolder;
+            font-size: 15px;
+        }
+
+        .image {
+            position: relative;
+
+        }
+
+        .off {
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            background-color: rgba(218, 43, 16, 0.6);
+            bottom: 10px;
+            left: 10px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="head">
+            <div class="first">
+                <div class="brand Box">
+                    <h1>
+                        Zomato
+                    </h1>
+                </div>
+                <div class="search Box">
+                    <form>
+                        <input type="text Box" class="searching" placeholder="Search for resturent">
+                    </form>
+                </div>
+                <div class="log Box">
+                    <button>Log in</button>
+                </div>
+                <div class="sign Box">
+                    <button>Sign up</button>
+                </div>
+                <div class="second Box"></div>
+            </div>
+        </div>
+        <div class="second ">
+            <div class="dining Box">
+                <div class="images Box">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png?output-format=webp"
+                        class="img3">
+                    <div class="dine Box">Dining out</div>
+
+                </div>
+            </div>
+            <div class="delivery Box">
+
+                <div class="dining Box">
+                    <div class="images Box">
+                        <img src="https://b.zmtcdn.com/data/o2_assets/246bbd71fbba420d5996452be3024d351616150055.png?output-format=webp"
+                            class="img3">
+                        <div class="dine Box">Delivery</div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="nightlife  Box">
+
+
+                <div class="dining Box">
+                    <div class="images Box">
+                        <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png?output-format=webp"
+                            alt="Zomato Logo" class="img3">
+                        <div class="dine Box">Dining out</div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="third">
+                <p>
+                    <h2>
+    Collection
+                </h2>
+            </p>
+            </div>
+        </div>
+
+        
+    </header>
+
+
+
+
+    <main>
+        <!-- image -->
+        <div class="card">
+            <div class="image">
+                <image
+                    src="https://b.zmtcdn.com/data/pictures/1/18423151/d54c49eaed1a5ce8720b266716c535d1_featured_v2.jpg?output-format=webp"
+                    class="img">
+                </image>
+                <p class="off">flat 25% off</p>
+            </div>
+
+            <!-- resturnnt name -->
+            <div class="Resturent">
+                <div class="Resturent_name Box">
+                    <p>The Darzi bar and Kitchen</p>
+                </div>
+                <div class="rating Box">
+                    <p>4.2*</p>
+                </div>
+            </div>
+            <!-- food information -->
+            <div class="food">
+                <div class="food_name Box">
+                    <p>North indian chinese</p>
+                </div>
+                <div class="price Box">
+                    <p>&#8377;2800 for two</p>
+                </div>
+            </div>-
+            <!-- location -->
+
+            <div class="location">
+                <div class="place Box">
+                    <p>Middel clicle,cp</p>
+                </div>
+                <div class="distance Box">
+                    <p>1.4 km</p>
+                </div>
+            </div>
+
+        </div>
+
+       
+    </main>
+</body>
+
+
+<!-- image also store base_64 charecter type -->
+<!-- not direct save image as option used (pointer-events=none;) -->
+
+</html>
