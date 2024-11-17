@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #243642;
+    color: white;
+    font-family: font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 4, 4);
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1rem;
+
+}
+
+nav ul li:hover {
+    color: gray;
+    font-size: 1rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.right {
+    margin-left: 22rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}
+
+
+.firstsection div {
+    width: 30%;
+
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 3rem;
+    margin: 60px;
+
+}
+
+.rightsection img {
+    /* background-color: red; */
+    margin: 50px;
+    width: 80%;
+}
+
+main hr {
+    border: 0;
+    background-color: rgba(166, 141, 201, 0.466);
+    height: 0.5px;
+    margin: 48px 84px;
+}
+
+
+.secondsection h1 {
+    max-width: 80vw;
+    margin: auto;
+    font-size: 2rem;
+    /* padding-bottom: 30rem; */
+}
+
+
+.section2div {
+    text-align: center;
+}
+
+.contanier {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* background-color: green; */
+    width: 99%;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    /* margin-bottom: 40rem; */
+    /* height: 80vh; */
+    /* background-color: red; */
+
+    margin-left: 15px;
+
+}
+
+.img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.image {
+    height: 210px;
+    width: 210px;
+    border-radius: 15px;
+    margin-left: 6rem;
+}
+
+.contanier2 {
+    display: flex;
+
+}
+
+.div3 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.div3 h2{
+    font-size: 40px;
+}
+
+.card2{
+    /* background-color: red; */
+    height: 300px;
+    width: 300px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.img2{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+
+
+/* .left,.right{
+    position: absolute;
+    padding-bottom: 200px;
+} */
+
+
+
+
+
+
